@@ -1,0 +1,49 @@
+{
+  "title": "Retail Sales Performance & Profitability",
+  "subtitle": "Superstore dataset — categories, regions, discounting and shipping",
+  "kpis": [
+    { "label": "Total Sales", "key": "total_sales", "format": "money" },
+    { "label": "Total Profit", "key": "total_profit", "format": "money" },
+    { "label": "Profit Margin", "key": "profit_margin_pct", "format": "percent" },
+    { "label": "Avg Discount", "key": "avg_discount_pct", "format": "percent" },
+    { "label": "Avg Lead Time (days)", "key": "avg_lead_time_days", "format": "number" },
+    { "label": "Shipping Cost / Sales", "key": "shipping_cost_pct_of_sales", "format": "percent" }
+  ],
+  "charts": [
+    {
+      "title": "Sales vs Profit by Category",
+      "type": "bar",
+      "file": "data/sales_profit_by_category.json",
+      "x": "Product Category",
+      "y": ["total_sales", "total_profit"]
+    },
+    {
+      "title": "Profit by Region",
+      "type": "bar",
+      "file": "data/profit_by_region.json",
+      "x": "Region",
+      "y": ["total_profit"]
+    },
+    {
+      "title": "Profit Margin by Discount Band",
+      "type": "bar",
+      "file": "data/discount_impact.json",
+      "x": "Discount Band",
+      "y": ["profit_margin_pct"]
+    },
+    {
+      "title": "Shipping Cost vs Lead Time",
+      "type": "bar",
+      "file": "data/shipping_efficiency.json",
+      "x": "Ship Mode",
+      "y": ["avg_shipping_cost", "avg_lead_time"]
+    },
+    {
+      "title": "Monthly Sales & Profit Trend",
+      "type": "line",
+      "file": "data/monthly_trend.json",
+      "x": "Order Month",
+      "y": ["total_sales", "total_profit"]
+    }
+  ]
+}
