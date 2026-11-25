@@ -1,0 +1,4 @@
+ship_mode,line_items,total_shipping_cost,avg_shipping_cost,shipping_cost_pct_of_sales,avg_lead_time_days
+Regular Air,6270,48008.19,7.66,0.64,
+Express Air,983,7850.91,7.99,0.66,
+Delivery Truck,1146,51971.94,45.35,0.83,

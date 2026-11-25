@@ -1,0 +1,11 @@
+{
+  "total_sales": 14915600.82,
+  "total_profit": 1521767.98,
+  "profit_margin_pct": 10.2,
+  "avg_discount_pct": 4.97,
+  "avg_lead_time_days": 2.0,
+  "shipping_cost_pct_of_sales": 0.72,
+  "orders": 5496,
+  "line_items": 8399,
+  "loss_making_subcategories": 4
+}
