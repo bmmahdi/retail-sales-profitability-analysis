@@ -92,11 +92,34 @@ python -m http.server 8000 --directory docs
 
 ## Key findings
 
-_The analysis runs automatically with GitHub Actions; findings appear here when it finishes._
+- Technology leads with $5.98M sales and 14.81% profit margin, while Furniture has $5.18M sales but only 2.27% margin.
+- Ontario and Prarie have the highest profit margins at 11.32%, whereas West (8.26%) and Nunavut (2.44%) lag.
+- Discounts above 6% severely erode profitability: 6-10% band margin is 7.8%, and 20%+ band is -49.76%.
+- Shipping costs are 0.72% of sales; Delivery Truck has the highest cost per line ($45.35) and cost percentage (0.83%).
+- Four loss-making subcategories exist, but top subcategories like Binders (30.05% margin) and Telephones (16.78%) drive profit.
+- Average lead time is 2 days, with Express Air and Regular Air having similar shipping cost percentages (0.66% and 0.64%).
+
+**Recommendations**
+- Cap discounts at 5% for most products, especially in Furniture, to prevent margin erosion; review and eliminate loss-making subcategories.
+- Investigate and reduce shipping costs for Delivery Truck, which has a much higher cost per line, and optimize shipping mode selection.
+- Focus marketing and inventory efforts on high-margin subcategories like Binders (30.05%) and Telephones (16.78%) to boost overall profitability.
+
+<details><summary>🇫🇷 Résumé en français</summary>
+
+Cette analyse examine les ventes et la rentabilité par catégorie de produits et par région, révélant que la Technologie génère le plus de profit tandis que le Meuble souffre de faibles marges. Les remises supérieures à 6% réduisent considérablement la rentabilité, et les coûts d'expédition varient selon le mode, le camion de livraison étant le plus coûteux par ligne.
+
+- La Technologie domine avec 5,98 M$ de ventes et une marge de 14,81%, tandis que le Meuble génère 5,18 M$ mais seulement 2,27% de marge.
+- L'Ontario et les Prairies affichent les meilleures marges (11,32%), suivis de l'Atlantique (11,86%), alors que l'Ouest (8,26%) et le Nunavut (2,44%) sont à la traîne.
+- Les remises supérieures à 6% érodent fortement la rentabilité : la marge de la tranche 6-10% est de 7,8%, et celle de 20%+ est de -49,76%.
+- Les coûts d'expédition représentent 0,72% des ventes ; le camion de livraison a le coût par ligne le plus élevé (45,35$) et le pourcentage le plus élevé (0,83%).
+- Quatre sous-catégories sont déficitaires, mais les meilleures comme les classeurs (marge 30,05%) et les téléphones (16,78%) génèrent du profit.
+- Le délai de livraison moyen est de 2 jours, avec des pourcentages de coût d'expédition similaires pour Express Air (0,66%) et Regular Air (0,64%).
+
+</details>
 
 ## Dashboard
 
-📊 Dashboard: published with the project.
+📊 **Interactive dashboard:** https://bmmahdi.github.io/retail-sales-profitability-analysis/
 
 ## Skills demonstrated
 
